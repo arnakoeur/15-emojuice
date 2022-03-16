@@ -26,7 +26,7 @@ header h1{
 header .title{
   text-align: center;
   background-color: #ffffffdd;
-  padding-bottom: 5px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 
@@ -50,6 +50,19 @@ header .title{
   align-items: center;
 }
 
+main h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+main p {
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
 main {
   max-width: 380px;
 }
@@ -57,7 +70,6 @@ main {
 main .menu-products{
   padding: 20px;
   background-color: #7DB96F;
-
 }
 
 .product-banana {
@@ -142,4 +154,34 @@ main .menu-products{
   font-family: 'Maven Pro', sans-serif;
   text-decoration: underline;
   color: #000000;
+}
+
+.fruit-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fruit-bar img {
+  max-width: 27px;
+}
+
+.card {
+  padding: 90px 55px;
+}
+
+footer {
+  padding: 45px 55px;
+}
+
+footer h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+footer p {
+  font-size: 12px;
+  text-align: center;
 }
