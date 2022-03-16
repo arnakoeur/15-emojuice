@@ -5,7 +5,7 @@ body {
 header{
   border-top: #7DB96F solid 8px;
   background-image: url("../img/fruits-background.webp");
-  padding: 10px;
+  padding: 20px 20px 50px;
 }
 
 header h1{
@@ -15,17 +15,29 @@ header h1{
 }
 
 header .title{
-  margin: 30px;
   text-align: center;
-  border: solid whitesmoke;
-  background-color: whitesmoke;
+  background-color: #ffffffdd;
+  padding-bottom: 5px;
 }
 
-header .button{
+.title p {
+  color: #7DB96F;
+}
+
+.button a {
   border: #7DB96F solid;
-  border-radius: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
   background-color: #7DB96F;
-  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
@@ -34,5 +46,51 @@ main {
 }
 
 main .menu-products{
+  padding: 20px;
   background-color: #7DB96F;
+
+}
+
+.product-banana {
+  background-color: #FCF7D6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.product-banana h2 {
+  font-family: 'Sriracha', cursive;
+}
+
+.product-kiwi {
+  background-color: #D0F1AE;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.product-kiwi h2 {
+  font-family: 'Sriracha', cursive;
+}
+
+.product-coffee {
+  background-color: #CDC4B0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.product-coffee h2 {
+  font-family: 'Sriracha', cursive;
+}
+
+.product-strawberry {
+  background-color: #E2A2B1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.product-strawberry h2 {
+  font-family: 'Sriracha', cursive;
 }
