@@ -77,6 +77,10 @@ main .menu-products{
   padding: 10px;
 }
 
+.menu-products h2 {
+  text-align: center;
+}
+
 .product-banana {
   background-color: #FCF7D6;
   border-radius: 10px;
@@ -228,4 +232,26 @@ footer p {
 
 .other-products {
   background-color: #D0F1AE;
+}
+
+.article-box img {
+  max-width: 80px;
+}
+
+.article-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.more-product-strawberry {
+  background-color: #E2A2B1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 40px;  
+}
+
+.more-product-strawberry h2 {
+  font-family: 'Sriracha', cursive;
 }
