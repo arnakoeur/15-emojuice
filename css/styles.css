@@ -261,22 +261,35 @@ footer p {
   max-width: 80px;
 }
 
+.more-product {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.more-product h2 {
+  font-family: 'Sriracha', cursive;
+}
+
 .article-box {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.more-product-strawberry {
-  background-color: #E2A2B1;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  margin-bottom: 40px;  
+.product-exhibition {
+  display: flex;
+  justify-content: space-between;
 }
 
-.more-product-strawberry h2 {
-  font-family: 'Sriracha', cursive;
+.strawberry {
+  background: #E2A2B1;
+}
+
+.coffee {
+  background: #CDC4B0;
 }
 
 .card {
