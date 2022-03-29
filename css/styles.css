@@ -79,13 +79,16 @@ main .menu-products{
 
 .titre-product-card {
   text-align: center;
+  margin-top: 47px;
+  margin-bottom: 40px;
+  color: white;
 }
 
 .product-banana {
   background-color: #FCF7D6;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px;
   margin-bottom: 40px;
 }
 
@@ -105,9 +108,9 @@ main .menu-products{
 
 .product-kiwi {
   background-color: #D0F1AE;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px;
   margin-bottom: 40px;
 }
 
@@ -127,9 +130,9 @@ main .menu-products{
 
 .product-coffee {
   background-color: #CDC4B0;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px;
   margin-bottom: 40px;
 }
 
@@ -149,9 +152,9 @@ main .menu-products{
 
 .product-strawberry {
   background-color: #E2A2B1;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20px;
   margin-bottom: 40px;
 }
 
@@ -242,7 +245,13 @@ footer p {
 
 .information-kiwi p {
   font-size: 16px;
-  
+}
+
+.information-kiwi h3 {
+  font-size: 18px;
+  font-family: 'Quattrocento', serif;
+  padding-top: 38px;
+  padding-bottom: 20px;
 }
 
 .information-kiwi li {
